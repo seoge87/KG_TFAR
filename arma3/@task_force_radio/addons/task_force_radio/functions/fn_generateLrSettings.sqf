@@ -23,7 +23,7 @@ if (isNumber (ConfigFile >> "task_force_radio_settings" >> "tf_default_radioVolu
 	getNumber(ConfigFile >> "task_force_radio_settings" >> "tf_default_radioVolume")
 };
 
-_lr_settings = [0, _volume, [], 0, nil, -1, 0, false];
+_lr_settings = [0, _volume, [], 0, nil, -1, 0, true];
 _set = false;
 _lr_frequencies = [];
 if (typename _this == "BOOL") then {
