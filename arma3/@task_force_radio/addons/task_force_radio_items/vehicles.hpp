@@ -7,7 +7,7 @@ class AllVehicles:All
 class Land;
 class LandVehicle: Land
 {
-	tf_range = 30000;
+	tf_range = 10000;	//	30000
 };
 class Tank:LandVehicle
 {

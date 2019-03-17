@@ -2,7 +2,7 @@ class CfgPatches
 {
 	class task_force_radio
 	{
-		units[] = {};
+		units[] = {"KG_Radio_slingloadable_F"};
 		weapons[] = {};
 		requiredVersion = 1.0;
 		requiredAddons[] = { "CBA_Main", "cba_settings", "task_force_radio_items"};
@@ -20,6 +20,7 @@ class task_force_radio_settings {
 };
 #include "\task_force_radio\description.h"
 #include "\task_force_radio\RscTitles.hpp"
+#include "\task_force_radio\CfgVehicles.hpp"
 
 class CfgSounds
 {

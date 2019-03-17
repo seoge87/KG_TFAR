@@ -136,6 +136,8 @@ class CfgFunctions
 			class radioToRequestCount;
 			class radiosList;
 			class radiosListSorted;
+			class repeater_pack;
+			class repeater_unpack;
 			// S
 			class setSwSettings;
 			class setLrSettings;
