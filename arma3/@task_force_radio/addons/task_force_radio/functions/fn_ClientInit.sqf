@@ -220,10 +220,10 @@ TF_tangent_dd_pressed = false;
 
 TF_dd_frequency = nil;
 
-TF_speakerDistance = 30;
+TF_speakerDistance = 20;
 TF_speak_volume_level = "yelling";
-TF_speak_volume_meters = 100;
-TF_max_voice_volume = 100;
+TF_speak_volume_meters = 60;
+TF_max_voice_volume = 60;
 TF_sw_dialog_radio = nil;
 
 TF_lr_dialog_radio = nil;
