@@ -37,8 +37,11 @@ _part4 enableSimulation false;
     if (_distance < 5000) then {
 		_factor = 2 - (_distance/5000);
 		player setVariable ['tf_sendingDistanceMultiplicator', _factor, true];
+		player setVariable ['tf_receivingDistanceMultiplicator', _factor, true];
 		}
-		else { player setVariable ['tf_sendingDistanceMultiplicator', 1, true];
+		else {
+			player setVariable ['tf_sendingDistanceMultiplicator', 1, true];
+			player setVariable ['tf_receivingDistanceMultiplicator', 1, true];
 		};
 		if (isNull _object) exitWith {(_this select 1) call CBA_fnc_removePerFrameHandler;
 		};
