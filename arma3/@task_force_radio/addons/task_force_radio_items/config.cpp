@@ -167,7 +167,7 @@ class CfgVehicles {
   {
     tf_hasLRradio = 0;
     tf_encryptionCode = "";
-    tf_range = 10000;	//	20000
+    tf_range = 20000;
   };
   class TFAR_Bag_Base: Bag_Base
   {
