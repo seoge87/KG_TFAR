@@ -219,6 +219,8 @@ class CfgVehicles {
     hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\clf_nicecomm2_nato_multi_co.paa"};
     model="\task_force_radio_items\models\clf_nicecomm2";
   };
+  #include "kg_rt1523g.hpp"
+  
   class tf_rt1523g_big_bwmod: tf_rt1523g
   {
     displayName = "RT-1523G (ASIP) Big BWMOD [Flecktarn]";
