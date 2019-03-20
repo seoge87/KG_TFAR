@@ -74,3 +74,11 @@
 		mass = 120;
 		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\kg_rt1523g_big_woodland_co.paa"};
 	};
+	class KG_rt1523g_big_woodland : tf_rt1523g_big {
+		author = "Kimchi Guys";
+		displayName = "ROKA RT-1523G SF";
+		descriptionShort = "RT-1523G (ASIP) Big long range radio 20km";
+		maximumLoad = 160;
+		mass = 120;
+		hiddenSelectionsTextures[] = {"\task_force_radio_items\models\data\kg_rt1523g_big_sf_co.paa"};
+	};
