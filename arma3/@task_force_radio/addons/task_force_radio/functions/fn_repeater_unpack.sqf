@@ -32,12 +32,13 @@ _part4 enableSimulation false;
 [_part1, 3] call BIS_fnc_DataTerminalAnimate;
 
 [{
+	if (side player != west) exitWith {};
     private _object = getPos player nearestObject "KG_Radio_disassembled_F";
 	_distance = _object distance player;
     if (_distance < 5000) then {
 		_factor = 2 - (_distance/5000);
 		player setVariable ['tf_sendingDistanceMultiplicator', _factor, true];
-		player setVariable ['tf_receivingDistanceMultiplicator', _factor, true];
+		player setVariable ['tf_receivingDistanceMultiplicator', 1/_factor, true];
 		}
 		else {
 			player setVariable ['tf_sendingDistanceMultiplicator', 1, true];

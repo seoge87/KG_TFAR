@@ -118,6 +118,12 @@ class C_Boat_Civil_01_rescue_F:Boat_Civil_01_base_F
 // ---------------------------------------------------------
 // Default 3d-party Mod Support
 // ---------------------------------------------------------
+class rhsusf_mrzr_base : MRAP_01_base_F
+{
+	tf_hasLRradio = 1;
+	tf_isolatedAmount = 0;
+};
+
 class rc_hmmwv_base: Car_F
 {
 	tf_hasLRradio = 1;
